@@ -1,0 +1,104 @@
+#brand{
+display: flex;
+color: aqua;
+align-items: center;
+
+}
+.first{
+    box-sizing: border-box;
+    display: flex;
+    height: 500px;
+}
+.box1{
+    background-image: url(images/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 700px;
+    padding-left: 100px;
+    font-weight: 300px;
+    font-size: larger;
+    padding-top: 300px;
+}
+/* .box2{
+background-image: url(images/slider-img.jpg);
+background-size: cover;
+height: 500px;
+width: 500px;
+background-repeat: no-repeat;
+} */
+
+.button{
+    display: flex;
+   
+}
+#butn1{
+    border-radius: 50px;
+    
+}
+#butn{
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.about{
+
+    margin-top: 400px;
+    text-align: center;
+    background-image: url(images/about-img-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    
+    
+}
+.about-text{
+
+    margin-bottom: 150px;
+}
+
+.boxall{
+    display: flex;
+   justify-content: center;
+   margin-right: 150px;
+}
+.box_1, .box_2 ,.box_3{
+    width: 300px;
+    border: 1px solid #0fcfdc;
+    text-align: center;
+    margin: 45px 20px 0 20px;
+    padding: 45px 35px 15px 35px;
+    justify-content: center;
+    margin-left: 30px;
+}
+.box_1{
+    margin-left: 150px;
+}
+.ach{
+    justify-content: center;
+    margin-top: 70px;
+    display:flex ;
+}
+#ah{
+    text-align: center;
+}
+.test{
+    text-align: left;
+    width: 700px;
+    margin-left: 400px;
+    border: 1px solid #0fcfdc;
+    padding: 10px 50px 5px 50px ;
+}
+#foot{
+    background-color: rgb(53, 51, 51);
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 40px;
+}
+.socials {
+    padding-top: 20px;
+}
+h6{
+    padding-top: 20px;
+    padding-bottom:30px ;
+}
